@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+
+
+
+
+
+aws s3 cp dir1 s3://mark77/dir1 --recursive
+
+
+
+    1  cd /
+    2  cd rahul/
+    3  ls -ltr
+    4  touch xyz
+    5  ls -ltr
+    6  aws s3 mv xyz s3://mark77/abc
+    7  aws s3 ls s3://mark77
+    8  aws s3 mv s3://mark77/abc s3://rahul-buk
+    9  touch file3
+   10  aws sync . s3://mark77
+   11  aws s3 sync . s3://mark77
+   12  ls -ltr
+   13  aws s3 cp s3://mark77/user data script.txt .
+   14  aws s3 cp s3://mark77a.txt .
+   15  aws s3 cp s3://mark77/a.txt .
+   16  aws s3 mb s3://mark22 --region ap-south-1
+   17  aws s3 rb s3://mark22 --force
+   18  aws s3 rb s3://mark77 --force
+   19  aws s3 rb s3://rahul-buk --force
